@@ -1,5 +1,5 @@
 .header .header-top {
-    background: #01d262 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     height: 50px;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .join-us>p {
-    background: #089549 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     line-height: 50px;
     margin: 0;
     padding: 0;
 }
 
 .header .header-top .join-us p a {
-    background: #089549 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     color: #fff;
     float: right;
     font-size: 15px;
@@ -76,7 +76,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: 11px;
-    color: #01d262;
+    color: #d76dcc;
 }
 
 .carosal-area {
@@ -125,7 +125,7 @@
 
 .carosal-area .text>h5.white-button a {
     background: #fff;
-    color: #01d262;
+    color: #d76dcc;
 }
 
 .carosal-area .owl-prev {
@@ -192,7 +192,7 @@
 }
 
 .wrapper section>h2::before {
-    background: #01d262 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -275,17 +275,45 @@
 }
 
 .our_activity .single-Promo:hover>h2 a {
-    color: #01d262;
+    color: #d76dcc;
 }
 
 .our_activity .single-Promo:hover>.promo-icon i {
-    background: #01d262;
+    background: #d76dcc;
     color: #fff;
 }
 
 .our_activity .single-Promo:hover>h2::before {
-    background: #01d262;
+    background: #d76dcc;
     color: #fff;
+}
+
+.about_us_section .single_about h2 {
+    color: #3c354e;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 110px 0 40px;
+}
+
+.about_us_section .single_about p {
+    color: #595959;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.about_us_section .single_about p span {
+    color: #d76dcc;
+}
+
+.about_us_section .single_about p.progress-top {
+    text-align: center
+}
+
+.about_us_section .single_about .for_padding {
+    padding: 0 30px
 }
 
 .donate_section {
@@ -415,7 +443,7 @@
 }
 
 .events_section_area .events_single:hover h3 {
-    color: #01d262;
+    color: #d76dcc;
     text-decoration: underline;
 }
 
@@ -428,22 +456,22 @@
     text-align: center;
 }
 
-.our_cuauses .our_cuauses_single {
+.assistance_program .assistance_program_single {
     margin-top: 75px;
     margin-bottom: 55px;
 }
 
-.our_cuauses .our_cuauses_single .item {
+.assistance_program .assistance_program_single .item {
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding-bottom: 20px
 }
 
-.our_cuauses .our_cuauses_single .item img {
+.assistance_program .assistance_program_single .item img {
     width: 100%
 }
 
-.our_cuauses .our_cuauses_single .item h2 {
+.assistance_program .assistance_program_single .item h2 {
     color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -451,7 +479,7 @@
     margin: 110px 0 40px;
 }
 
-.our_cuauses .our_cuauses_single .item p {
+.assistance_program .assistance_program_single .item p {
     color: #595959;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -459,52 +487,52 @@
     margin: 0;
 }
 
-.our_cuauses .our_cuauses_single .item p span {
-    color: #01d262;
+.assistance_program .assistance_program_single .item p span {
+    color: #d76dcc;
 }
 
-.our_cuauses .our_cuauses_single .item p.progress-top {
+.assistance_program .assistance_program_single .item p.progress-top {
     text-align: center
 }
 
-.our_cuauses .our_cuauses_single .item .for_padding {
+.assistance_program .assistance_program_single .item .for_padding {
     padding: 0 30px
 }
 
-.our_cuauses .progress {
+.assistance_program .progress {
     background-color: #e5e5e5;
     height: 10px;
     margin-top: 20px;
     max-width: 100%;
 }
 
-.our_cuauses .progress-bar {
-    background-color: #01d262;
+.assistance_program .progress-bar {
+    background-color: #d76dcc;
 }
 
-.our_cuauses .progress-text {
+.assistance_program .progress-text {
     margin: 0 auto;
     position: relative;
 }
 
-.our_cuauses .progress-text .progress-left {
+.assistance_program .progress-text .progress-left {
     left: 0;
     margin-top: 15px;
     position: absolute;
 }
 
-.our_cuauses .progress-text .progress-right {
+.assistance_program .progress-text .progress-right {
     margin-top: 15px;
     position: absolute;
     right: 0;
 }
 
-.our_cuauses h2 {
+.assistance_program h2 {
     margin-top: 120px;
     text-align: center;
 }
 
-.our_cuauses h2. {
+.assistance_program h2. {
     color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 32px;
@@ -514,8 +542,8 @@
     width: -moz-fit-content;
 }
 
-.our_cuauses h2::before {
-    background: #01d262 none repeat scroll 0 0;
+.assistance_program h2::before {
+    background: #d76dcc none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -524,8 +552,8 @@
     width: 50%;
 }
 
-.our_cuauses h2.borderes::before {
-    background: #01d262 none repeat scroll 0 0;
+.assistance_program h2.borderes::before {
+    background: #d76dcc none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 0px;
@@ -534,7 +562,7 @@
     width: 0%;
 }
 
-.wrapper .our_cuauses>p {
+.wrapper .assistance_program>p {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -542,7 +570,7 @@
     text-align: center;
 }
 
-.our_cuauses h2 a {
+.assistance_program h2 a {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
     color: #05ce68;
@@ -554,24 +582,24 @@
     border: 1px solid #05ce68;
 }
 
-.our_cuauses .our_cuauses_single .item {
+.assistance_program .assistance_program_single .item {
     margin-bottom: 20px
 }
 
-.our_cuauses .our_cuauses_single .item .for_padding:hover>h2 {
-    color: #01d262;
+.assistance_program .assistance_program_single .item .for_padding:hover>h2 {
+    color: #d76dcc;
 }
 
-.our_cuauses .our_cuauses_single .item .for_padding:hover>h2 a {
+.assistance_program .assistance_program_single .item .for_padding:hover>h2 a {
     color: #fff;
-    background: #01d262;
+    background: #d76dcc;
 }
 
-.our_cuauses .owl-theme .owl-nav {
+.assistance_program .owl-theme .owl-nav {
     margin: 50px 0;
 }
 
-.our_cuauses .owl-theme .owl-nav [class*="owl-"] {
+.assistance_program .owl-theme .owl-nav [class*="owl-"] {
     background: transparent;
     border: medium none;
     border-radius: 3px;
@@ -584,11 +612,11 @@
     padding: 0;
 }
 
-.our_cuauses .owl-theme .owl-nav i {
+.assistance_program .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #d76dcc;
     border-radius: 5px;
-    color: #01d262;
+    color: #d76dcc;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -596,8 +624,8 @@
     width: 50px;
 }
 
-.our_cuauses .owl-theme .owl-nav i:hover {
-    background: #01d262;
+.assistance_program .owl-theme .owl-nav i:hover {
+    background: #d76dcc;
     color: #fff;
 }
 
@@ -606,7 +634,7 @@
 }
 
 .donors .donors_input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     float: left;
     height: 600px;
     text-align: center;
@@ -648,7 +676,7 @@
 }
 
 .donors .donors_input h5 input {
-    background: #01d262 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     border: 1px solid #fff;
     border-radius: 10px;
     color: #fff;
@@ -674,9 +702,9 @@
 
 .donors .donors_input input[type="submit"] {
     background: #fff none repeat scroll 0 0;
-    border: 2px solid #01d262;
+    border: 2px solid #d76dcc;
     border-radius: 10px;
-    color: #01d262;
+    color: #d76dcc;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -691,7 +719,7 @@
 
 .donors .donors_input h4 select {
     width: 500px;
-    background: #01d262 none repeat scroll 0 0;
+    background: #d76dcc none repeat scroll 0 0;
     border: none;
     padding: 17px 20px;
     border-radius: 10px;
@@ -734,7 +762,7 @@
 }
 
 .donors .donors_image .item p span {
-    color: #01d262;
+    color: #d76dcc;
 }
 
 .donors .donors_image .owl-theme .owl-nav {
@@ -744,8 +772,8 @@
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #01d262 none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    background: #d76dcc none repeat scroll 0 0;
+    border: 1px solid #d76dcc;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
@@ -822,9 +850,9 @@
 
 .volunteer_area .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #01d262;
+    border: 1px solid #d76dcc;
     border-radius: 5px;
-    color: #01d262;
+    color: #d76dcc;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -833,7 +861,7 @@
 }
 
 .volunteer_area .owl-theme .owl-nav i:hover {
-    background: #01d262;
+    background: #d76dcc;
     color: #fff;
 }
 

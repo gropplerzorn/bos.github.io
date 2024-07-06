@@ -1,0 +1,394 @@
+/*
+	These are the styles peculiar to this site. Any styles
+	specified in this file will override the baseline
+	styles for the Convio product. The styles must be in
+	this file so that they will be available in the
+	Internet Exporer WYSIWYG HTML editor as well as in the
+	Page Wrapper.
+
+	Convio does not maintain this file once it has been
+	delivered to the client.
+*/
+
+
+body, p, ol, ul, li, td, .Explicit {
+	font-family: Arial, sans-serif;
+	color: #000000;
+}
+
+a, a:link,
+a:active,
+a:visited {
+	color: #336699;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+
+a:hover {
+	color: #369;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}	
+
+.navTop1 {
+	color: #369;
+	font-weight: bold;
+	line-height: 14pt;
+	padding-bottom: 6px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.navTop1 a,
+.navTop1 a:link,
+.navTop1 a:active,
+.navTop1 a:visited {
+	color: #369;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navTop1 a:hover {
+	color: #369;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.navFooter {
+	line-height: 12pt;
+}
+
+.navFooter .links,
+.navFooter .links a,
+.navFooter .links a:link,
+.navFooter .links a:active,
+.navFooter .links a:visited {
+	color: #369;
+	text-decoration: none;
+}
+
+.navFooter .links a:hover {
+	color: #369;
+	text-decoration: underline;
+}
+
+.navFooter .copyright {
+	color: #666;
+}
+
+.navFooter .notice {
+	color: #666;
+	font-size: 8pt;
+	line-height: 14pt;
+}
+
+table.FormBox,
+div.FormBox {
+	background-color: white;
+	border: none;
+}
+
+
+.FormBox {
+	background-color: white;
+	border: none;
+}
+p.cstmTitle, .ObjTitle, .Heading {
+	color: #69c;
+	font-size: 18pt;
+}
+
+table.ProgressBox {
+	background-color: white;
+	border: none;
+}
+
+.ProgressBoxCurrent {
+	color: #ce0e41;
+	background-color: white;
+}
+
+.ProgressBox {
+	color: #999;
+	background-color: white;
+}
+
+.Instructions {
+	background-color: #89a3d1;
+}
+
+td.TableHeadings,
+th.TableHeadings {
+	background-color: #3d70b7;
+}
+
+
+/*
+	The background-image entry forces NS4
+	to render the background color when
+	it doesn't want to.
+*/
+.WhatNext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	background-color: white;
+	background-image: URL(../images/sp.gif);
+}
+
+div.WhatNext {
+	border: #3d70b7 1px solid;
+	background-color: white;
+	background-image: URL(../images/sp.gif);
+	padding: 0px 4px;
+}
+
+table.WhatNext {
+	border: #3d70b7 2px solid;
+}
+
+/* commented out for CS#8972
+	normal form buttons (non-graphic)
+
+input.Button {
+	color: white;
+	background-color: #f90;
+	font-weight: bold;
+}
+*/
+
+/*
+	During the making of a donation
+	Donation_UD_Progress_Bar.tpt
+*/
+table.ProgressBack {
+	background-color: white;
+	border: #3d70b7 2px solid;
+}
+
+td.currentItem {
+	color: white;
+	background-color: #3d70b7;
+}
+
+th.currentItem {
+	color: white;
+	background-color: #3d70b7;
+}
+
+td.finishedItem {
+	background-color: #f0f5fa;
+	background-image: none;
+}
+
+td.nextItem {
+	background-color: #fff;
+	background-image: none;
+}
+
+LABEL.wrapable {
+	
+white-space: normal;
+
+color: #000000;
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+text-decoration: none;
+font-size:10pt;}
+
+FIELDSET.noBox {
+	
+border: none;
+	
+display: block;
+	
+padding: 0px 4px 4px 4px;
+color: #369;
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+text-decoration: none;
+font-size:10pt;
+}
+
+
+td.TableHeadings {
+	background-color: #0065B3;
+}
+
+th.TableHeadings {
+	background-color: #0065B3;
+}
+
+/*
+	Right alignment style orignally created
+	for the sort buttons.
+*/
+
+td.TableHeadingsR {
+	background-color: #0065B3;
+	text-align: right;
+}
+
+
+
+p.cstmTitle {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+}
+
+p.cstmHeading, span.cstmHeading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+}
+
+/*ul,li{
+	list-style-type:circle;
+	color:black;
+}*/
+
+LI, UL, .Explicit {
+}
+
+/*styles for particular events*/
+table.lc_Table {
+ border: 1px solid #749dd3;
+}
+tr.lc_Row1 {
+ background-color: #749dd3;
+}
+tr.lc_Row0 {
+ background-color: #ffffff;
+}
+
+td.lc_Cell {
+ border: none;
+ padding-top:6px;
+ padding-left:2px;
+}
+table.lc_Table a {
+ color: black;
+ font-weight: bold;
+ font-size: 11px;
+ padding:12px;
+}
+table.lc_Table a.event {
+ color: black;
+ font-weight: bold;
+ font-size: 11px;
+}
+table.lc_Table td.teamListCaptain {
+  font-size: 11px;
+  padding: 12px;
+}
+table.lc_Table td.teamListCaptain a {
+  padding: 0;
+}
+
+.headline{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#749dd3;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/*end styles for particular events*/
+
+/* sf 112013 */
+div.plainList div.plainListItem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+span.plainListName {
+	color: #369;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+
+/* for SFDC 112760  */
+
+.cstmFrame {
+background-color: #fff;
+color: #000;
+text-align: center;
+font-style: italic;
+margin: 2px;
+}
+
+/*ADDED by ce 10/08/07*/
+A.ListActionLinks,
+A.ListActionLinks:link,
+A.ListActionLinks:visited,
+A.ListActionLinks:hover,
+A.ListActionLinks:active {
+	font-size: 95%;
+	color: #009;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	line-height:22px;
+}
+A.ListActionLinks:hover,
+A.ListActionLinks:active {
+	color: #ff9a02;
+}
+
+input.default-submit-hack {
+        width: 0;
+        height: 0;
+        padding: 0;
+        border: 0;
+        margin: 0;
+}
+
+ 
+#joinorformteam { display:none}
+
+#sustainer-hero { padding-bottom:20px; }
+
+#page-wrapper p { margin:0px; padding:10px 0px;}
+
+/* open auth on UserLogin */
+#lmainLogonForm .loginText {
+  color: #545454;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+#lmainLogonForm .loginHref {
+  margin-right: 5px;
+}
+#lmainLogonForm div.loginLinks {
+  padding-bottom: 8px;
+}
+
+/* Username and Password fields on GigyaLogin */
+#gigyaLoginForm .fieldRequired {
+  clear: left;
+}
+#gigyaLoginForm .fieldInput {
+  margin-bottom: 5px;
+}
+
+table[id^="lct_"] th.lc_Heading, 
+table[id^="lct_"] th.lc_HeadingSort { 
+	/*color:#FFBB04;
+	text-shadow: 1px 1px 0px #333333;
+	filter: dropshadow(color=#333333, offx=1, offy=1); */
+	color: #000;
+}
+
+p.PaddedListHeadingsC {
+  color: #ffffff;
+}
+
+/*#msg_sender_addressrow1, #msg_sender_addressrow2{display:none;}*/

@@ -1,0 +1,13 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="28px" height="28px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve" aria-labelledby="cms-img-edit-title" role="img">
+<title id="cms-img-edit-title">Change Image</title>
+<g>
+<polygon fill="#52357C" points="2.4966,37.6016 2.4966,39.0977 9.3994,39.0977 7.9028,37.6016   "/>
+
+<rect x="35.0953" y="8.806" transform="matrix(0.7076 -0.7066 0.7066 0.7076 3.8312 28.9877)" fill="#52357C" width="3.6971" height="2.1165"/>
+
+<rect x="20.9809" y="7.1631" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 20.1107 57.8614)" fill="#52357C" width="2.1158" height="35.2051"/>
+</g>
+<path fill="#FFFFFF" d="M8.8442,36.4648l-6.9033-6.9043L26.835,4.668l6.9023,6.9023L8.8442,36.4648z M37.5049,7.8086l-6.9063-6.9063
+l-2.6152,2.6172l6.9043,6.9023L37.5049,7.8086z M1,30.6973v6.9043h6.9028L1,30.6973z"/>
+</svg>

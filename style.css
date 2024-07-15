@@ -80,7 +80,7 @@
 }
 
 .carosal-area {
-    background-image: url("img/carosal-bg.jpg");
+    background-image: url("img/hero-v2.jpg");
     background-size: cover;
 }
 
@@ -210,11 +210,11 @@
     text-align: center;
 }
 
-.our_activity {
+.get_involved {
     margin-bottom: 140px;
 }
 
-.our_activity .single-Promo {
+.get_involved .single-Promo {
     border-radius: 7px;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
     margin: 100px 35px 0;
@@ -222,7 +222,7 @@
     position: relative;
 }
 
-.our_activity .single-Promo .promo-icon {
+.get_involved .single-Promo .promo-icon {
     left: 0;
     position: absolute;
     text-align: center;
@@ -230,14 +230,14 @@
     width: 100%;
 }
 
-.our_activity .single-Promo h2 {
+.get_involved .single-Promo h2 {
     border-radius: 60px;
     margin: 10px auto 38px;
     position: relative;
     width: -moz-fit-content;
 }
 
-.our_activity .single-Promo h2::before {
+.get_involved .single-Promo h2::before {
     background: #000 none repeat scroll 0 0;
     bottom: -5px;
     content: "";
@@ -247,7 +247,7 @@
     width: 60%;
 }
 
-.our_activity .single-Promo h2 a {
+.get_involved .single-Promo h2 a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-size: 22px;
@@ -255,7 +255,7 @@
     color: #3c354e;
 }
 
-.our_activity .single-Promo p {
+.get_involved .single-Promo p {
     color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -264,7 +264,7 @@
     text-align: center;
 }
 
-.our_activity .single-Promo i {
+.get_involved .single-Promo i {
     border: 0 solid #000;
     border-radius: 50%;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
@@ -274,16 +274,16 @@
     background: #fff;
 }
 
-.our_activity .single-Promo:hover>h2 a {
+.get_involved .single-Promo:hover>h2 a {
     color: #d76dcc;
 }
 
-.our_activity .single-Promo:hover>.promo-icon i {
+.get_involved .single-Promo:hover>.promo-icon i {
     background: #d76dcc;
     color: #fff;
 }
 
-.our_activity .single-Promo:hover>h2::before {
+.get_involved .single-Promo:hover>h2::before {
     background: #d76dcc;
     color: #fff;
 }
@@ -293,15 +293,43 @@
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 700;
+    text-align: center;
+    margin: 110px 0 40px;
+}
+.about_us_section .single_about h3 {
+    color: #3c354e;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 110px 0 40px;
+}
+.about_us_section .single_about h4 {
+    color: #3c354e;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 110px 0 40px;
+}
+.about_us_section  h5 {
+    color: #3c354e;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
     margin: 110px 0 40px;
 }
 
 .about_us_section .single_about p {
-    color: #595959;
+    color: #3c354e;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
-    margin: 0;
+    line-height: 30px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .about_us_section .single_about p span {

@@ -52,11 +52,11 @@
         "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
      });
 
-     $('.volunteer_single').owlCarousel({
+     $('.about_us_single').owlCarousel({
          loop: true,
          margin: 10,
          nav: true,
-         items: 3,
+         items: 1,
          autoplayTimeout: 6000,
          autoplay: true,
          navText: [
@@ -64,17 +64,17 @@
         "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
          responsive: {
              1400: {
-                 items: 3,
+                 items: 1,
                  nav: true,
                  loop: true
              },
              768: {
-                 items: 2,
+                 items: 1,
                  nav: true,
                  loop: true
              },
              500: {
-                 items: 2,
+                 items: 1,
                  nav: true,
                  loop: true
              },

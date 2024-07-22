@@ -1,5 +1,5 @@
  $('#counter-block').ready(function () {
-     $('.client').owlCarousel({
+     $('.events_top').owlCarousel({
          loop: true,
          margin: 10,
          nav: true,

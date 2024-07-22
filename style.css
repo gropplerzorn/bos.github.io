@@ -1,5 +1,5 @@
 .header .header-top {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     height: 50px;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .header .header-top .contact p a {
-    color: #EDCAD2;
+    color: #514978;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
@@ -22,15 +22,15 @@
 }
 
 .join-us>p {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     line-height: 50px;
     margin: 0;
     padding: 0;
 }
 
 .header .header-top .join-us p a {
-    background: #d76dcc none repeat scroll 0 0;
-    color: #fff;
+    background: #EDCAD2 none repeat scroll 0 0;
+    color: #514978;
     float: right;
     font-size: 15px;
     font-weight: 500;
@@ -39,6 +39,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.header .header-bottom  {
+    background: #739AB1;
+}
 .header .header-bottom .menu {
     margin: 34px 0;
 }
@@ -48,7 +51,7 @@
 }
 
 .header .header-bottom .menu ul li a {
-    color: #000;
+    color: #514978;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -76,7 +79,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-left: 11px;
-    color: #d76dcc;
+    color: #EDCAD2;
 }
 
 .carosal-area {
@@ -123,10 +126,7 @@
     text-decoration: none;
 }
 
-.carosal-area .text>h5.white-button a {
-    background: #fff;
-    color: #d76dcc;
-}
+
 
 .carosal-area .owl-prev {
     left: 0;
@@ -192,7 +192,7 @@
 }
 
 .wrapper section>h2::before {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -275,16 +275,16 @@
 }
 
 .get_involved .single-Promo:hover>h2 a {
-    color: #d76dcc;
+    color: #EDCAD2;
 }
 
 .get_involved .single-Promo:hover>.promo-icon i {
-    background: #d76dcc;
+    background: #EDCAD2;
     color: #fff;
 }
 
 .get_involved .single-Promo:hover>h2::before {
-    background: #d76dcc;
+    background: #EDCAD2;
     color: #fff;
 }
 .about_us_area .item {
@@ -355,9 +355,9 @@
 
 .about_us_area .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #d76dcc;
+    border: 1px solid #EDCAD2;
     border-radius: 5px;
-    color: #d76dcc;
+    color: #EDCAD2;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -366,7 +366,7 @@
 }
 
 .about_us_area .owl-theme .owl-nav i:hover {
-    background: #d76dcc;
+    background: #EDCAD2;
     color: #fff;
 }
 
@@ -495,9 +495,13 @@
     margin-top: 70px;
     text-align: center;
 }
+.events_section_area .events_single white-button a {
+    background: #fff;
+    color: #EDCAD2;
+}
 
 .events_section_area .events_single:hover h3 {
-    color: #d76dcc;
+    color: #EDCAD2;
     text-decoration: underline;
 }
 
@@ -542,7 +546,7 @@
 }
 
 .assistance_program .assistance_program_single .item p span {
-    color: #d76dcc;
+    color: #EDCAD2;
 }
 
 .assistance_program .assistance_program_single .item p.progress-top {
@@ -561,7 +565,7 @@
 }
 
 .assistance_program .progress-bar {
-    background-color: #d76dcc;
+    background-color: #EDCAD2;
 }
 
 .assistance_program .progress-text {
@@ -597,7 +601,7 @@
 }
 
 .assistance_program h2::before {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 2px;
@@ -607,7 +611,7 @@
 }
 
 .assistance_program h2.borderes::before {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     bottom: -13px;
     content: "";
     height: 0px;
@@ -641,12 +645,12 @@
 }
 
 .assistance_program .assistance_program_single .item .for_padding:hover>h2 {
-    color: #d76dcc;
+    color: #EDCAD2;
 }
 
 .assistance_program .assistance_program_single .item .for_padding:hover>h2 a {
     color: #fff;
-    background: #d76dcc;
+    background: #EDCAD2;
 }
 
 .assistance_program .owl-theme .owl-nav {
@@ -668,9 +672,9 @@
 
 .assistance_program .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #d76dcc;
+    border: 1px solid #EDCAD2;
     border-radius: 5px;
-    color: #d76dcc;
+    color: #EDCAD2;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -679,7 +683,7 @@
 }
 
 .assistance_program .owl-theme .owl-nav i:hover {
-    background: #d76dcc;
+    background: #EDCAD2;
     color: #fff;
 }
 
@@ -688,7 +692,7 @@
 }
 
 .donors .donors_input {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     float: left;
     height: 600px;
     text-align: center;
@@ -730,7 +734,7 @@
 }
 
 .donors .donors_input h5 input {
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     border: 1px solid #fff;
     border-radius: 10px;
     color: #fff;
@@ -756,9 +760,9 @@
 
 .donors .donors_input input[type="submit"] {
     background: #fff none repeat scroll 0 0;
-    border: 2px solid #d76dcc;
+    border: 2px solid #EDCAD2;
     border-radius: 10px;
-    color: #d76dcc;
+    color: #EDCAD2;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -773,7 +777,7 @@
 
 .donors .donors_input h4 select {
     width: 500px;
-    background: #d76dcc none repeat scroll 0 0;
+    background: #EDCAD2 none repeat scroll 0 0;
     border: none;
     padding: 17px 20px;
     border-radius: 10px;
@@ -816,7 +820,7 @@
 }
 
 .donors .donors_image .item p span {
-    color: #d76dcc;
+    color: #EDCAD2;
 }
 
 .donors .donors_image .owl-theme .owl-nav {
@@ -826,8 +830,8 @@
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot.active span,
 .donors .donors_image .owl-theme .owl-dots .owl-dot:hover span {
-    background: #d76dcc none repeat scroll 0 0;
-    border: 1px solid #d76dcc;
+    background: #EDCAD2 none repeat scroll 0 0;
+    border: 1px solid #EDCAD2;
 }
 
 .donors .donors_image .owl-theme .owl-dots .owl-dot span {
@@ -904,9 +908,9 @@
 
 .volunteer_area .owl-theme .owl-nav i {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #d76dcc;
+    border: 1px solid #EDCAD2;
     border-radius: 5px;
-    color: #d76dcc;
+    color: #EDCAD2;
     font-size: 25px;
     height: 50px;
     overflow: hidden;
@@ -915,7 +919,7 @@
 }
 
 .volunteer_area .owl-theme .owl-nav i:hover {
-    background: #d76dcc;
+    background: #EDCAD2;
     color: #fff;
 }
 

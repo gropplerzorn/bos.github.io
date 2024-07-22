@@ -10,7 +10,7 @@
 }
 
 .header .header-top .contact p a {
-    color: #fff;
+    color: #EDCAD2;
     font-size: 14px;
     font-weight: 400;
     text-decoration: none;
@@ -141,7 +141,7 @@
 }
 
 .carosal-area .owl-theme .owl-nav [class*="owl-"] {
-    background: #1cb060 none repeat scroll 0 0;
+    background: #514978 none repeat scroll 0 0;
     border-radius: 50%;
     font-size: 25px;
     height: 50px;

@@ -125,7 +125,10 @@
     padding: 15px 40px;
     text-decoration: none;
 }
-
+.carosal-area .text white-button a {
+    background: #514978;
+    color: #EDCAD2;
+}
 
 
 .carosal-area .owl-prev {
@@ -411,7 +414,7 @@
     max-width: 700px;
     margin: 0 auto;
     height: 10px;
-    background-color: #1eb464;
+    background-color: #514978;
 }
 
 .donate_section .progress-bar {
@@ -444,7 +447,7 @@
 .donate_section h2 a {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
-    color: #05ce68;
+    color: #514978;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -495,6 +498,7 @@
     margin-top: 70px;
     text-align: center;
 }
+
 .events_section_area .events_single white-button a {
     background: #fff;
     color: #EDCAD2;
@@ -631,13 +635,13 @@
 .assistance_program h2 a {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
-    color: #05ce68;
+    color: #514978;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     padding: 15px 40px;
     text-decoration: none;
-    border: 1px solid #05ce68;
+    border: 1px solid #514978;
 }
 
 .assistance_program .assistance_program_single .item {
@@ -957,7 +961,7 @@
 }
 
 .carosal_bottom .item h5 i {
-    color: #1dbb6b;
+    color: #514978;
     font-size: 60px;
 }
 
@@ -1036,11 +1040,11 @@
 }
 
 .latest_news .single_news:hover .texts h3 {
-    color: #30dd85;
+    color: #514978;
 }
 
 .latest_news .single_news:hover .texts h3 a {
-    color: #30dd85;
+    color: #514978;
     text-decoration: underline;
 }
 
@@ -1050,6 +1054,10 @@
     padding: 60px 0;
 }
 
+.footer_carosal .footer_carosal_icon .item h3 {
+    font-family: poppins-extralight, poppins, sans-serif;
+    text-align: initial ;
+}
 .footer_carosal .footer_carosal_icon .item img {
     width: 150px;
 }
@@ -1162,7 +1170,7 @@
 }
 
 .footer .footer_bottom p a {
-    color: #2ad880;
+    color: #514978;
     text-decoration: none;
 }
 
@@ -1201,7 +1209,7 @@
 }
 
 .block-wrapper .for-border {
-    border-left: 1px solid #2be587;
+    border-left: 1px solid #514978;
 }
 
 .block-wrapper .for-border:first-child {

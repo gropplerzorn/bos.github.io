@@ -102,7 +102,7 @@
          loop: true,
          margin: 10,
          nav: true,
-         items: 5,
+         items: 1,
          autoplayTimeout: 6000,
          autoplay: true,
          navText: [
@@ -110,27 +110,27 @@
         "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
          responsive: {
              1400: {
-                 items: 5,
+                 items: 1,
                  nav: true,
                  loop: true
              },
              991: {
-                 items: 4,
+                 items: 1,
                  nav: true,
                  loop: true
              },
              768: {
-                 items: 4,
+                 items: 1,
                  nav: true,
                  loop: true
              },
              500: {
-                 items: 3,
+                 items: 1,
                  nav: true,
                  loop: true
              },
              0: {
-                 items: 2,
+                 items: 1,
                  nav: true,
                  loop: true
              }

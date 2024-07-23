@@ -1080,9 +1080,11 @@
     padding: 60px 0;
 }
 
+
+
 .footer_carosal .footer_carosal_icon .item h3 {
     font-family: poppins-extralight, poppins, sans-serif;
-    text-align: initial ;
+    text-align: center ;
 }
 .footer_carosal .footer_carosal_icon .item img {
     width: 150px;

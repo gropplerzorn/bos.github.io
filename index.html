@@ -3,7 +3,18 @@
 
 <head>
     <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js" id="donorbox-popup-button-installer"> </script>
-    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script> 
+    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+        });
+    </script>   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Beacon Of Strength BCF</title>
@@ -21,6 +32,7 @@
 
 <body>
     <div class="wrapper">
+        <div id="header">
         <header class="header">
             <section class="header-top">
                 <div class="container">
@@ -66,6 +78,7 @@
                 </div>
             </section>
         </header>
+    </div>
         <section class="carosal-area">
             <div class="container">
                 <div class="row">
@@ -247,9 +260,10 @@
                             <img src="img/Decoration Contest.jpg" alt="">
                             <p><span class="event_left"><i class="material-icons">access_time</i>TBD</span><span class="event_right"><i class="material-icons">location_on</i>TBD</span></p>
                             <h3>Breast Cancer Awareness Month: Paint the Town Pink Decoration Contest</h3>
-                            <h6>Additionally, local businesses are invited to participate in our Paint the Town Pink Decoration Contest. Show your support by decorating your windows or storefronts in pink. Entry fees apply, and winners will be showcased on our website and social media platforms. More information will be released closer to date.</h6>
+                            <h6>Check Back Soon...<br>More Info To Come!</h6>
+                            <!--<h6>Additionally, local businesses are invited to participate in our Paint the Town Pink Decoration Contest. Show your support by decorating your windows or storefronts in pink. Entry fees apply, and winners will be showcased on our website and social media platforms. More information will be released closer to date.</h6>
                             <h6>This event is not just about fun and celebration; it’s about making a real difference. Funds raised at Paint the Town Pink will support Beacon of Strength’s mission to provide essential resources, emotional support, and advocacy for individuals and families affected by breast cancer.</h6>
-                            <h6>Stay tuned for more information and follow us on Facebook to stay updated and be notified when additional details are available.</h6>
+                            <h6>Stay tuned for more information and follow us on Facebook to stay updated and be notified when additional details are available.</h6> -->
                         </div>
                     </div>
                     <!-- <div class="col-md-4 col-xs-12">
@@ -588,7 +602,7 @@
                             <div class="item">
                                 <h3><a ref="https://www.bowensrobotics.org/"></a>BOWENS ROBOTICS INITIATVE</h3> 
                             </div>
-<!--                             <div class="item">
+                    <!--    <div class="item">
                                 <img src="img/envato.png" alt="">
                             </div>
                             <div class="item">
@@ -605,9 +619,7 @@
                 </div>
             </div>
         </section>
-
-
-
+        <div id="footer">
         <footer class="footer">
             <div class="container">
                 <div class="row">
@@ -616,7 +628,7 @@
                             <h2>HELP CHARITY</h2>
                             <p>Your generous donations are the cornerstone of our foundation, enabling us to provide vital support to breast cancer patients in need. Every contribution, no matter the size, helps us offer financial assistance, emotional support, and essential resources to those navigating their breast cancer journey. By donating, you become a beacon of hope and strength for someone in their darkest moments. Illuminate their path to recovery by giving today. </p>
                             <hr>
-                            <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></p>
+                            <p><a href="https://www.facebook.com/profile.php?id=61559610195793"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></p>
                         </div>
                     </div>
                     <div class="col-md-8">
@@ -643,14 +655,17 @@
                                         <li><a href="https://donorbox.org/beacon-of-strength-breast-cancer-foundation">Give</a></li>
                                     </ul>
                             </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="footer-text one">
-                                    <h3>CONTACT US</h3>
-                                    <ul>
-                                        <li><a href="#"><i class="material-icons">location_on</i>P.O Box 854, Flomaton, AL 36441, USA</a></li>
-                                        <li><a href="mailto:info@bosbcf.com"><i class="material-icons">email</i>info@bosbcf.com</a></li>
-                                        <li><a href="#"><i class="material-icons">call</i>+1 (251) 236-1418</a></li>
-                                    </ul>
+                        </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-5">
+                                    <div class="footer-text one">
+                                        <h3>CONTACT US</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="material-icons">location_on</i>P.O Box 854, Flomaton, AL 36441, USA</a></li>
+                                            <li><a href="mailto:info@bosbcf.com"><i class="material-icons">email</i>info@bosbcf.com</a></li>
+                                            <li><a href="#"><i class="material-icons">call</i>+1 (251) 236-1418</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -661,6 +676,7 @@
                 <p>Copyright @ 2024 <a href="mailto:info@farpointrx.com">FarpointRx</a> | All Rights Reserved </p>
             </div>
         </footer>
+    </div>
     </div>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/animationCounter.js"></script>

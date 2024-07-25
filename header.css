@@ -1,0 +1,61 @@
+.header .header-top {
+    background: #EDCAD2 none repeat scroll 0 0;
+    height: 50px;
+}
+
+.contact>p {
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .header-top .contact p a {
+    color: #514978;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .header-top .contact p span {
+    margin-right: 45px;
+}
+
+.join-us>p {
+    background: #EDCAD2 none repeat scroll 0 0;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .header-top .join-us p a {
+    background: #EDCAD2 none repeat scroll 0 0;
+    color: #514978;
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .header-bottom  {
+    background: #739AB1;
+}
+.header .header-bottom .menu {
+    margin: 34px 0;
+}
+
+.header .header-bottom .menu ul {
+    float: right;
+}
+
+.header .header-bottom .menu ul li a {
+    color: #514978;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 0;
+    padding-left: 40px;
+    padding-right: 0;
+}

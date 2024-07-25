@@ -2,26 +2,38 @@
 <html lang="en">
 
 <head>
-    <script type="text/javascript" defer src="https://donorbox.org/install-popup-button.js" id="donorbox-popup-button-installer"> </script>
-    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
+    <!-- External JS Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
     </script>
+    <script src="https://donorbox.org/install-popup-button.js" id="donorbox-popup-button-installer" defer> </script>
+    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
+    
+    <!-- Load Header and Footer after jQuery -->
     <script> 
         $(function(){
         $("#header").load("header.html"); 
         $("#footer").load("footer.html"); 
         });
     </script>   
+
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+
     <title>Beacon Of Strength BCF</title>
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./img/main-logo1.ico">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
+    <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -33,52 +45,52 @@
 <body>
     <div class="wrapper">
         <div id="header">
-        <header class="header">
-            <section class="header-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="contact">
-                                <p><span class="phone"><a href="#">Phone: +1 (205) 236-1418</a></span><span class="email"><a href="mailto:info@bosbcf.com">Email: info@bosbcf.com</a></span></p>
+             <header class="header">
+                <section class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 col-xs-12">
+                                <div class="contact">
+                                    <p><span class="phone"><a href="#">Phone: +1 (205) 236-1418</a></span><span class="email"><a href="mailto:info@bosbcf.com">Email: info@bosbcf.com</a></span></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="join-us">
-                                <p><a href="#">JOIN US NOW</a></p>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="join-us">
+                                    <p><a href="#">JOIN US NOW</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="header-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-12 col-xs-12">
-                            <a href="#">
-                                <div class="main-logo">
-                                    <img src="img/main-logo1.png" alt="">
-                                    <h2>Beacon Of Strength Breast Cancer Foundation</h2>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-7 col-sm-12 col-xs-12">
-                            <div class="menu">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="./index.html">HOME</a></li>
-                                    <li><a href="./about-us.html">ABOUT US</a></li>
+                </section>
+                <section class="header-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12 col-xs-12">
+                                <a href="#">
+                                    <div class="main-logo">
+                                        <img src="img/main-logo1.png" alt="">
+                                        <h2>Beacon Of Strength Breast Cancer Foundation</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-7 col-sm-12 col-xs-12">
+                                <div class="menu">
+                                    <ul class="nav navbar-nav">
+                                        <li class="active"><a href="./index.html">HOME</a></li>
+                                        <li><a href="./about-us.html">ABOUT US</a></li>
                                     <!-- <li><a href="#">CAUSES</a></li> -->
-                                    <li><a href="./events.html">EVENTS</a></li>
+                                        <li><a href="./events.html">EVENTS</a></li>
                                     <!-- <li><a href="#">PORTFOLIO </a></li>
                                     <li><a href="#">BLOG</a></li> -->
-                                    <li><a href="#">CONTACT</a></li>
-                                </ul>
+                                        <li><a href="#">CONTACT</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </header>
-    </div>
+                </section>
+            </header>
+        </div>
         <section class="carosal-area">
             <div class="container">
                 <div class="row">

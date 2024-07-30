@@ -10,7 +10,8 @@
 }
 .owl-carousel .owl-item.active {
     background: rgba(76, 78, 121, .58);
-} 
+}
+
 .owl-carousel .owl-item.active text {
     color: #ffff;
 }

@@ -2,20 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- External JS Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-    </script>
-    <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/82de84e92dd9f3b4415ded4d1/5609b6ef1bbf2f4222bfa8464.js");</script>
-    <!-- Load Header and Footer after jQuery -->
-    <script> 
-        $(function(){
-        $("#header").load("header.html"); 
-        $("#footer").load("footer.html"); 
-        });
-    </script>   
+
 
     <!-- Meta Tags -->
     <meta charset="UTF-8">
@@ -70,14 +57,19 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="menu">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="./index.html">HOME</a></li>
-                            <li><a href="./about-us.html">ABOUT US</a></li>
-                        <!-- <li><a href="#">CAUSES</a></li> -->
-                            <li><a href="#">EVENTS</a></li>
-                        <!-- <li><a href="#">PORTFOLIO </a></li>    
-                        <li><a href="#">BLOG</a></li> -->
-                            <li><a href="#">CONTACT</a></li>
+                        <ul id="nav navbar-nav" class="nav nav-pills clearfix right" role="tablist">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about-us.html">About Us</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Events</a>
+                                <ul id="products-menu" class="dropdown-menu clearfix" role="menu">
+                                    <li><a href="">A</a></li>
+                                    <li><a href="">B</a></li>
+                                    <li><a href="">C</a></li>
+                                    <li><a href="">D</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">menuD</a></li>
+                            <li><a href="#">menuE</a></li>
                         </ul>
                     </div>
                 </div>

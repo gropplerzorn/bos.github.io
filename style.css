@@ -3,7 +3,9 @@
     display: -webkit-flex;
     flex-wrap: wrap;
   }
-
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
 .dbox-donation-page-button {
     background: rgb(237, 202, 210); 
     color: rgb(255, 255, 255); 

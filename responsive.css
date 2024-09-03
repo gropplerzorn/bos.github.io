@@ -13,12 +13,14 @@
         max-width: 483px;
     }
 }
-@media (min-width: 768px) and (max-width: 991px)(max-width: 767px) {
-    .row.equal {
-      display: flex;
-      flex-wrap: wrap;
+@media (min-width: 768px) and (max-width: 991px) {
+    @media (max-width: 767px) {
+        .row.equal {
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
-  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
     .header .header-bottom .main-logo {
         margin: 10px 0;

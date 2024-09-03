@@ -5,6 +5,7 @@
   }
   .dropdown:hover .dropdown-menu {
     display: block;
+    background-color: #739AB1;
   }
 .dbox-donation-page-button {
     background: rgb(237, 202, 210); 
@@ -85,11 +86,12 @@
 
 .header .header-bottom .menu ul {
     float: right;
+    background: #739AB1;
 }
 
 .header .header-bottom .menu ul li a {
     color: #514978;
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     font-weight: 400;
     margin-right: 0;
@@ -113,7 +115,7 @@
 
 .main-logo>h2 {
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-left: 11px;
     color: #EDCAD2;

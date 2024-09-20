@@ -8,7 +8,6 @@
         crossorigin="anonymous">
     </script>
     <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/82de84e92dd9f3b4415ded4d1/5609b6ef1bbf2f4222bfa8464.js");</script>
     <!-- Load Header and Footer after jQuery -->
     <script> 
         $(function(){
@@ -263,7 +262,7 @@
                     <div class="col-md-6">
                         <div class="events_single">
                             <img src="img/paintthetownpink.jpg" alt="">
-                            <p><span class="event_left"><i class="material-icons">access_time</i>08/26/2024 08:00 AM</span><span class="event_right"><i class="material-icons">location_on</i>Hurricane/Dewey Bondurant Park 21139 US-31, Flomaton, AL 36441</span></p>
+                            <p><span class="event_left"><i class="material-icons">access_time</i>08/26/2024 <br>08:00 AM</span><span class="event_right"><i class="material-icons">location_on</i>Hurricane/<br>Dewey Bondurant Park<br> 21139 US-31<br> Flomaton, AL 36441</span></p>
                             <div class="clear"></div>
                             <h3>Paint The Town Pink</a></h3>
 
@@ -645,9 +644,65 @@
                 </div>
             </div>
         </section>
-        <div id="footer">
-            <iframe src="./footer.html" width="100%" height="690" frameborder="0" scrolling="no"></iframe>  
-    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="footer-charity-text">
+                            <h2>HELP CHARITY</h2>
+                            <p>Your generous donations are the cornerstone of our foundation, enabling us to provide vital support to breast cancer patients in need. Every contribution, no matter the size, helps us offer financial assistance, emotional support, and essential resources to those navigating their breast cancer journey. By donating, you become a beacon of hope and strength for someone in their darkest moments. Illuminate their path to recovery by giving today. </p>
+                            <hr>
+                            <p><a href="https://www.facebook.com/profile.php?id=61559610195793"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <!-- <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a> !-->
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <!-- <div class="col-md-4 col-sm-5">
+                                <div class="footer-text one">
+                                    <h3>RECENT POST</h3>
+                                    <ul>
+                                        <li><a href="#"><i class="material-icons">keyboard_arrow_right</i> Consectetur Adipisicing Elit</a></li>
+                                        <li><a href="#"><i class="material-icons">keyboard_arrow_right</i> Consectetur Adipisicing </a></li>
+                                        <li><a href="#"><i class="material-icons">keyboard_arrow_right</i> Consectetur Adipisicing Elit</a></li>
+                                        <li><a href="#"><i class="material-icons">keyboard_arrow_right</i> Consectetur Adipisicing</a></li>
+                                        <li><a href="#"><i class="material-icons">keyboard_arrow_right</i> Consectetur Adipisicing Elit</a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="col-md-4 col-sm-3">
+                                <div class="footer-text two">
+                                    <h3>USEFUL LINKS</h3>
+                                    <ul>
+                                        <li><a href="./index.html">Home</a></li>
+                                        <!--<li><a href="#">Causes</a></li> !-->
+                                        <li><a href="./about-us.html">About Us</a></li> 
+                                        <li><a href="https://donorbox.org/beacon-of-strength-breast-cancer-foundation">Give</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-5">
+                                    <div class="footer-text one">
+                                        <h3>CONTACT US</h3>
+                                        <ul>
+                                            <li><a href="#"><i class="material-icons">location_on</i>P.O Box 854, Flomaton, AL 36441, USA</a></li>
+                                            <li><a href="mailto:info@bosbcf.com"><i class="material-icons">email</i>info@bosbcf.com</a></li>
+                                            <li><a href="#"><i class="material-icons">call</i>+1 (251) 236-1418</a></li>
+                                            <li><a href="#"><i class="material-symbols-outlined">account_balance</i>EIN:99-1647126</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>v1.0.1-Copyright @ 2024 <a href="mailto:info@farpointrx.com">FarpointRx</a> | All Rights Reserved </p>
+            </div>
+        </footer>
     </div>
     <script src="js/jquery-3.1.1.min.js"></script>  
     <script src="js/animationCounter.js"></script>
@@ -655,21 +710,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/active.js"></script>
 
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36251023-1']);
-        _gaq.push(['_setDomainName', 'jqueryscript.net']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
 </body>
 
 </html>

@@ -2,11 +2,19 @@
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
   .dropdown:hover .dropdown-menu {
     display: block;
     background-color: #739AB1;
   }
+.latest_news h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 70px;
+    text-align: center;
+}
 .dbox-donation-page-button {
     background: rgb(237, 202, 210); 
     color: rgb(255, 255, 255); 
@@ -503,6 +511,11 @@
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
+.events_section_area h2 {
+    margin-top: 120px;
+    text-align: center;
+}
+
 .events_section_area .events_single {
     margin: 60px 20px 0;
 }
@@ -539,8 +552,8 @@
 }
 
 .events_section_area .events_single p span.event_right {
-    position: absolute;
-    right: 0;
+    position: relative;
+    right: auto;
     padding-left: 20px;
 }
 
@@ -1287,7 +1300,9 @@ text-align: left;
 
 .footer .footer-text ul {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    overflow: auto; 
+
 }
 
 .footer .footer-text.one ul li {
@@ -1295,6 +1310,7 @@ text-align: left;
     list-style: outside none none;
     padding-left: 20px;
     position: relative;
+    overflow: auto; 
 }
 
 .footer .footer-text.one ul li i {
@@ -1303,6 +1319,7 @@ text-align: left;
     left: -7px;
     position: absolute;
     top: 3px;
+    overflow: auto; 
 }
 
 .footer .footer-text.one ul li a {
@@ -1311,6 +1328,7 @@ text-align: left;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    overflow: auto; 
 }
 
 .footer .footer-text.two ul li a {
@@ -1319,10 +1337,12 @@ text-align: left;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+    overflow: auto; 
 }
 
 .footer .footer-text ul li {
     margin-bottom: 10px;
+    overflow: auto; 
 }
 
 .footer .footer-text.two ul li a:hover,
@@ -1330,6 +1350,7 @@ text-align: left;
 .footer .footer-text.one ul li i:hover,
 .footer .footer-charity-text p i:hover {
     color: #c0c0c0;
+    overflow: auto; 
 }
 
 .footer .footer_bottom p {

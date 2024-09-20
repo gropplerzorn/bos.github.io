@@ -291,6 +291,8 @@
     margin: 10px auto 38px;
     position: relative;
     width: -moz-fit-content;
+    text-align: center;
+    font-size: 10px;
 }
 
 .get_involved .single-Promo h2::before {
@@ -306,7 +308,7 @@
 .get_involved .single-Promo h2 a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     color: #3c354e;
 }
@@ -511,6 +513,9 @@
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
+.events_section_area p {
+    margin: 10px;
+}
 .events_section_area h2 {
     margin-top: 120px;
     text-align: center;
@@ -525,7 +530,7 @@
 }
 
 .events_section_area .events_single p {
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Roboto", sans-serif;
     margin-top: 14px;
     font-weight: 400;
@@ -533,16 +538,18 @@
 }
 
 .events_section_area .events_single p i {
-    font-size: 15px;
+    font-size: 10px;
     position: absolute;
     left: 0;
     top: 2px;
 }
 
-.events_section_area .events_single p span.event_left {
+.events_section_area .events_single div.event_left {
     left: 0;
     position: absolute;
     padding-left: 20px;
+    font-size: smaller;
+    text-align: left;
 }
 
 .events_section_area .events_single p span.event_bottom {
@@ -551,10 +558,13 @@
     padding-left: 20px;
 }
 
-.events_section_area .events_single p span.event_right {
+.events_section_area .events_single div.event_right {
     position: relative;
     right: auto;
     padding-left: 20px;
+    float: right;
+    font-size: smaller;
+    text-align: right;
 }
 
 .events_section_area .events_single h3 {
@@ -598,7 +608,7 @@
     background: #81a0b4;
     color: #ddfddb;
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 32px;
     text-align: center;
@@ -1231,16 +1241,17 @@ text-align: left;
 }
 
 .footer_carosal {
-   background: #f5f5f5 none repeat scroll 0 0;
+   background:rgb(76, 78, 121) none repeat scroll 0 0;
     height: 150px;
     padding: 60px 0;
 }
 
 
 
-.footer_carosal .footer_carosal_icon .item h3 {
+.footer_carosal .footer_carosal_icon .item h3 a {
     font-family: poppins-extralight, poppins, sans-serif;
     text-align: center ;
+    color: #000 ;
 }
 
 .footer_carosal .footer_carosal_icon .owl-carousel .owl-theme {
@@ -1269,7 +1280,7 @@ text-align: left;
 }
 
 .footer .footer-charity-text p {
-    color: rgb(91, 91, 91);
+    color: rgb(130, 130, 130);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1277,7 +1288,7 @@ text-align: left;
 }
 
 .footer .footer-charity-text hr {
-    border-color: rgb(91, 91, 91);
+    border-color: rgb(130, 130, 130);
 }
 
 .footer .footer-charity-text p i {
@@ -1314,7 +1325,7 @@ text-align: left;
 }
 
 .footer .footer-text.one ul li i {
-    color: rgb(91, 91, 91);
+    color: rgb(130, 130, 130);
     font-size: 15px;
     left: -7px;
     position: absolute;
@@ -1323,7 +1334,7 @@ text-align: left;
 }
 
 .footer .footer-text.one ul li a {
-    color: rgb(91, 91, 91);
+    color: rgb(130, 130, 130);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -1332,7 +1343,7 @@ text-align: left;
 }
 
 .footer .footer-text.two ul li a {
-    color: rgb(91, 91, 91);
+    color: rgb(130, 130, 130);
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
